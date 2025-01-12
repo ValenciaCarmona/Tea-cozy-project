@@ -22,6 +22,10 @@ nav {
     top: 0px;
 }
 
+a {
+    color: seashell;
+}
+
 .logo img {
     height: 50px;
 }
