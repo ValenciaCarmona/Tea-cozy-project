@@ -1,8 +1,4 @@
 # The Tea Cozy Website
-
-This is the website for The Tea Cozy, a tea shop specializing in handcrafted and organic teas.
-
-# The Tea Cozy Website
 This project is from the Codecademy Full Stack Engineer course. I created the main page for a coffee shop website using HTML and CSS. I really enjoyed the whole process.
 
 https://github.com/user-attachments/assets/6643bd7c-85e0-4dce-a208-9fd5a15ab147
