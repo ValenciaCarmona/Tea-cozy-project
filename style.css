@@ -1,0 +1,125 @@
+body {
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    text-align: center;
+}
+
+/* header {
+    border-bottom: 1px solid seashell; 
+} */
+
+nav {
+    background-color: black;
+    position: fixed;
+    display: flex;
+    height: 69px;
+    width: 100%;
+    align-items: center;
+    border-bottom: 1px solid seashell; 
+    top: 0px;
+}
+
+.logo img {
+    height: 50px;
+}
+
+nav ul li{
+    display: inline;
+    text-decoration: underline;
+    padding: 0 10px;
+}
+
+nav ul {
+    position:absolute;
+    right: 10px;
+    top: 6px;
+}
+
+.mission {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+    background-image: url('./images/img-mission-background.jpg');
+    align-content: center;
+    background-size: cover;
+}
+
+.mission h2, .mission h4 {
+    background-color: black;
+    width: 1200px;
+    padding: 10px 0;
+    margin: 0px;
+}
+
+.month {
+    width: 1000px;
+    margin: 50px auto;
+}
+
+.month .images {
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* justify-content: space-between; */
+    /* display: inline-block;
+    width: 200px;
+    height: 300px; */
+}
+
+.month .images figure {
+    margin: 0;
+}
+
+.month .images img {
+    width: 300px;
+    height: 200px;
+    padding: 10px;
+}
+
+.month .images figcaption {
+    padding: 10px;
+}
+
+.month h2, .month h4 {
+    margin: 20px 0;
+}
+
+.locations {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    width: 100%;
+    background-image: url('./images/img-locations-background.jpg');
+    align-content: center;
+    background-size: cover;
+}
+
+.locations .blocks {
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.locations .blocks div {
+    background-color: black;
+    width: 300px;
+    margin: 0 40px;
+}
+
+footer .centered {
+    height: 200px;
+}
+
+footer p {
+    float: left;
+    left: 20px;
+    font-size: medium;
+    margin-bottom: 30px;
+}
